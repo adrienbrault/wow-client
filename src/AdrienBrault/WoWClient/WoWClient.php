@@ -20,6 +20,10 @@ class WoWClient extends Client
             'base_url' => '{scheme}://{region}.battle.net/api/wow/',
             'scheme' => 'http',
             'region' => 'eu',
+
+            self::CURL_OPTIONS => array(
+                CURLOPT_ENCODING => 'gzip',
+            ),
         );
         $required = array();
         $config = Collection::fromConfig($config, $default, $required);
