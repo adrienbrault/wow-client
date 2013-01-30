@@ -3,7 +3,7 @@
     "apiVersion": "2012-10-14",
     "description": "WoWClient let you access the WoW REST Api http://blizzard.github.com/api-wow-docs/",
     "operations": {
-        "GetAuctionData": {
+        "getAuctionData": {
             "httpMethod": "GET",
             "uri": "auction/data/{realm}",
             "summary": "http://blizzard.github.com/api-wow-docs/#auction-api",

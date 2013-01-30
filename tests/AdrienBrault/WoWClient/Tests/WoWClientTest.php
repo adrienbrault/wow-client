@@ -9,7 +9,7 @@ class WoWClientTest extends \PHPUnit_Framework_TestCase
     public function testGetAuctionData()
     {
         $client = WoWClient::factory();
-        $data = $client->GetAuctionData(array(
+        $data = $client->getAuctionData(array(
             'realm' => 'ysondre',
         ));
 
