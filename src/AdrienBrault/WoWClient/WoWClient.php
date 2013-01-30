@@ -8,6 +8,9 @@ use Guzzle\Service\Description\ServiceDescription;
 
 /**
  * @author Adrien Brault <adrien.brault@gmail.com>
+ *
+ * @method WoWClient factory
+ * @method array getAuctionData($parameters = array())
  */
 class WoWClient extends Client
 {
