@@ -12,6 +12,8 @@ use Guzzle\Service\Description\ServiceDescription;
  * @method WoWClient factory
  * @method array getAuctionData($parameters = array())
  * @method array getItem($parameters = array())
+ * @method array getItemClasses($parameters = array())
+ * @method array getRealmStatus($parameters = array())
  */
 class WoWClient extends Client
 {

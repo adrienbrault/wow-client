@@ -33,4 +33,12 @@ class WoWClientTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey('classes', $data);
     }
+
+    public function testGetRealmStatus()
+    {
+        $client = WoWClient::factory();
+        $data = $client->getRealmStatus();
+
+        $this->assertArrayHasKey('realms', $data);
+    }
 }

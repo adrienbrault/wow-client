@@ -29,6 +29,11 @@
             "httpMethod": "GET",
             "uri": "data/item/classes",
             "summary": "http://blizzard.github.com/api-wow-docs/#data-resources/item-classes"
+        },
+        "getRealmStatus": {
+            "httpMethod": "GET",
+            "uri": "realm/status",
+            "summary": "http://blizzard.github.com/api-wow-docs/#realm-status-api"
         }
     }
 }
