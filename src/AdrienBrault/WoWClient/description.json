@@ -13,6 +13,17 @@
                     "required": "true"
                 }
             }
+        },
+        "getItem": {
+            "httpMethod": "GET",
+            "uri": "item/{id}",
+            "summary": "http://blizzard.github.com/api-wow-docs/#item-api/individual-item",
+            "parameters": {
+                "id": {
+                    "location": "uri",
+                    "required": "true"
+                }
+            }
         }
     }
 }
