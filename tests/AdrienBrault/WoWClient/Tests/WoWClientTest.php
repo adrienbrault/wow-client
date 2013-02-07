@@ -25,4 +25,12 @@ class WoWClientTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals('Quel\'Serrar', $data['name']);
     }
+
+    public function testGetItemClasses()
+    {
+        $client = WoWClient::factory();
+        $data = $client->getItemClasses();
+
+        $this->assertArrayHasKey('classes', $data);
+    }
 }

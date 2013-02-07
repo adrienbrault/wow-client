@@ -24,6 +24,11 @@
                     "required": "true"
                 }
             }
+        },
+        "getItemClasses": {
+            "httpMethod": "GET",
+            "uri": "data/item/classes",
+            "summary": "http://blizzard.github.com/api-wow-docs/#data-resources/item-classes"
         }
     }
 }
